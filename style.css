@@ -70,7 +70,7 @@ h2 {
   font-family: "P22", sans-serif;
 
   transform: rotate(90deg) translate(calc(40vh), calc(10vh));
-  font-size: 115px;
+  font-size: 96px;
 }
 
 .info, .pricing {
