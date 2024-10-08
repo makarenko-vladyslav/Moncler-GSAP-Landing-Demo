@@ -7,7 +7,7 @@
     "features": "Bold, modern, and technical",
     "color": "Blood Orange",
     "price": "$1249.00",
-    "image": "image/1.png",
+    "image": "/image/1.png",
     "background": "linear-gradient(to bottom, #FE783D, #121826)"
   },
   {
@@ -18,7 +18,7 @@
     "features": "Bold, modern, and technical",
     "color": "Ice blue",
     "price": "$1249.00",
-    "image": "image/2.png",
+    "image": "/image/2.png",
     "background": "linear-gradient(to bottom, #00499D, #121826)"
   },
   {
@@ -29,7 +29,7 @@
     "features": "Bold, modern, and technical",
     "color": "Cyberpunk violet",
     "price": "$1249.00",
-    "image": "image/3.png",
+    "image": "/image/3.png",
     "background": "linear-gradient(to bottom, #DAB1C8, #511990)"
   }
 ]

@@ -13,8 +13,13 @@ interface Product {
     image: string;
 }
 
-fetch('products.json')
-    .then(response => response.json())
+fetch('/products.json')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+    })
     .then((data: Product[]) => {
         const swiperWrapper = document.getElementById('swiper-wrapper') as HTMLElement;
         const swiperThumbs = document.getElementById('swiper-thumbs') as HTMLElement;
